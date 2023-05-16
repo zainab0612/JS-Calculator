@@ -42,7 +42,7 @@ function getPer() {
     document.getElementById("result").value = eval((document.getElementById("result").value/100));
 }
 function getPi() {
-    document.getElementById("result").value = eval(Math.PI*document.getElementById("result").value*Math.PI);
+    document.getElementById("result").value = eval(Math.PI*document.getElementById("result").value);
 }
 function getCube() {
     document.getElementById("result").value = eval(((document.getElementById("result").value)*(document.getElementById("result").value))*(document.getElementById("result").value));
